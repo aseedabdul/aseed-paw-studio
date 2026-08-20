@@ -18,9 +18,10 @@ export function Veterinarian() {
                 className="aspect-4/5 w-full object-cover"
               />
             </div>
-            <span className="glass-card absolute -bottom-4 left-4 rounded-2xl px-4 py-2 text-xs tracking-[0.16em] text-primary uppercase">
-              Placeholder image
-            </span>
+            <div className="mt-5 text-center">
+              <p className="font-display text-2xl text-primary">ASIFA ZAINAB</p>
+              <p className="mt-1 text-sm text-muted-foreground">Veterinarian &amp; Animal Care Specialist</p>
+            </div>
           </div>
         </Reveal>
 
@@ -48,9 +49,6 @@ export function Veterinarian() {
                 Trained in Veterinary Care &amp; Animal Welfare through a one-year professional
                 course completed in 2024, with three years of practical experience in caring for
                 animals and supporting their health, comfort and wellbeing.
-              </p>
-              <p className="mt-6 border-t border-border pt-5 text-xs text-muted-foreground">
-                Veterinarian photograph and name to be added once provided by the studio.
               </p>
             </div>
           </Reveal>

@@ -1,5 +1,5 @@
 import { Phone, MessageCircle, MapPin, Mail, PawPrint } from "lucide-react";
-import { contactPlaceholders } from "@/lib/site-content";
+import { contactPlaceholders, createWhatsAppUrl, whatsappGreeting } from "@/lib/site-content";
 import { BookingForm } from "./BookingForm";
 import { PawDecor } from "./PawDecor";
 import { Reveal } from "./Reveal";
@@ -68,7 +68,7 @@ export function Contact() {
                   Call Now
                 </a>
                 <a
-                  href={`https://wa.me/${contactPlaceholders.whatsapp}`}
+                  href={createWhatsAppUrl(whatsappGreeting)}
                   className="btn-base btn-outline"
                 >
                   <MessageCircle className="size-4" aria-hidden="true" />

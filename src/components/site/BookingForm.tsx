@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { CheckCircle2, Send } from "lucide-react";
-import { groomingPackages } from "@/lib/site-content";
+import { createWhatsAppUrl, groomingPackages } from "@/lib/site-content";
 
 const fieldClass =
   "mt-2 w-full rounded-2xl border border-input bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground transition-colors focus:border-primary focus:outline-none";
@@ -11,6 +11,23 @@ export function BookingForm() {
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const message = `Hello ASEED Paw Studio,
+
+I would like to make a grooming booking.
+
+Customer Name: ${formData.get("customerName") ?? ""}
+Phone Number: ${formData.get("phone") ?? ""}
+Pet Name: ${formData.get("petName") ?? ""}
+Pet Type: ${formData.get("petType") ?? ""}
+Selected Service: ${formData.get("service") ?? ""}
+Preferred Date: ${formData.get("date") ?? ""}
+Preferred Time: ${formData.get("time") ?? ""}
+Message: ${formData.get("message") ?? ""}
+
+Please confirm the booking availability. Thank you.`;
+
+    window.open(createWhatsAppUrl(message), "_blank", "noopener,noreferrer");
     setSent(true);
   }
 

@@ -35,6 +35,13 @@ export const contactPlaceholders = {
   email: "aseedpawsstudio@gmail.com",
 } as const;
 
+export const whatsappGreeting =
+  "Hello ASEED Paw Studio, I would like to enquire about your pet grooming services. Please share the available packages and booking details.";
+
+export function createWhatsAppUrl(message: string) {
+  return `https://wa.me/${contactPlaceholders.whatsapp}?text=${encodeURIComponent(message)}`;
+}
+
 export type IncludedService = {
   name: string;
   description: string;

@@ -43,21 +43,6 @@ export function Hero() {
                 <span className="text-xs tracking-wide text-muted-foreground">Experience</span>
               </span>
             </div>
-            <div className="glass-card absolute -top-5 right-2 flex items-center gap-2.5 rounded-2xl py-2 pr-4 pl-2 sm:-right-4">
-              <img
-                src={siteImages.heroCatImage}
-                alt="Persian cat grooming — photo placeholder, to be replaced with a real photo"
-                width={96}
-                height={96}
-                loading="lazy"
-                className="size-11 shrink-0 rounded-full object-cover ring-2 ring-white/70"
-              />
-              <span className="text-xs leading-tight font-medium text-foreground">
-                Dogs &amp;
-                <br />
-                Persian Cats
-              </span>
-            </div>
           </div>
         </Reveal>
 

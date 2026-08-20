@@ -1,5 +1,11 @@
 import { Instagram, Facebook, MessageCircle, Phone, MapPin } from "lucide-react";
-import { contactPlaceholders, navLinks, siteImages } from "@/lib/site-content";
+import {
+  contactPlaceholders,
+  createWhatsAppUrl,
+  navLinks,
+  siteImages,
+  whatsappGreeting,
+} from "@/lib/site-content";
 
 export function SiteFooter() {
   return (
@@ -33,7 +39,7 @@ export function SiteFooter() {
                 {
                   icon: MessageCircle,
                   label: "WhatsApp",
-                  href: `https://wa.me/${contactPlaceholders.whatsapp}`,
+                  href: createWhatsAppUrl(whatsappGreeting),
                 },
               ].map(({ icon: Icon, label, href }) => (
                 <li key={label}>

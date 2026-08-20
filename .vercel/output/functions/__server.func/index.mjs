@@ -19923,25 +19923,25 @@ var init_client = __esmMin((() => {
 	init_headers();
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-zoj6zFFv.js
-var _tanstack_start_manifest_v_zoj6zFFv_exports = /* @__PURE__ */ __exportAll$1({ tsrStartManifest: () => tsrStartManifest });
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DWAsfrQt.js
+var _tanstack_start_manifest_v_DWAsfrQt_exports = /* @__PURE__ */ __exportAll$1({ tsrStartManifest: () => tsrStartManifest });
 var tsrStartManifest;
-var init__tanstack_start_manifest_v_zoj6zFFv = __esmMin((() => {
+var init__tanstack_start_manifest_v_DWAsfrQt = __esmMin((() => {
 	tsrStartManifest = () => ({ routes: {
 		__root__: {
 			filePath: "C:/Users/Abu sumaiya/Documents/GitHub/aseed-paw-studio/src/routes/__root.tsx",
 			children: ["/"],
-			preloads: ["/assets/index-qJ5Yq-kK.js"],
+			preloads: ["/assets/index-TBxA0c2h.js"],
 			scripts: [{ attrs: {
 				type: "module",
 				async: !0,
-				src: "/assets/index-qJ5Yq-kK.js"
+				src: "/assets/index-TBxA0c2h.js"
 			} }]
 		},
 		"/": {
 			filePath: "C:/Users/Abu sumaiya/Documents/GitHub/aseed-paw-studio/src/routes/index.tsx",
 			children: void 0,
-			preloads: ["/assets/routes-C_sDE9j5.js"]
+			preloads: ["/assets/routes-CFEEZnin.js"]
 		}
 	} });
 }));
@@ -27604,8 +27604,8 @@ var init_dist = __esmMin((() => {
 	Content2 = AccordionContent$1;
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-D9xLedqp.js
-var routes_D9xLedqp_exports = /* @__PURE__ */ __exportAll$1({ component: () => Index });
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BwJ7Pl0p.js
+var routes_BwJ7Pl0p_exports = /* @__PURE__ */ __exportAll$1({ component: () => Index });
 function cn(...inputs) {
 	return twMerge(clsx(inputs));
 }
@@ -27757,55 +27757,34 @@ function Hero() {
 					className: "order-2 lg:order-1",
 					children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
 						className: "relative mx-auto max-w-xl",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
-								className: "blob-mask shadow-glow ring-8 ring-white/60",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
-									src: siteImages.heroImage,
-									alt: "A freshly groomed white Maltese dog being brushed at a professional pet grooming studio",
-									width: 1200,
-									height: 1408,
-									className: "aspect-4/5 w-full object-cover"
-								})
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
-								className: "glass-card absolute -bottom-5 left-2 flex items-center gap-3 rounded-2xl px-4 py-3 sm:left-6",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
-									className: "grid size-10 shrink-0 place-items-center rounded-full bg-primary/10 text-primary",
-									children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(PawPrint, {
-										className: "size-5",
-										"aria-hidden": "true"
-									})
-								}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("span", {
-									className: "min-w-0",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
-										className: "block font-display text-lg leading-none text-primary",
-										children: "3 Years"
-									}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
-										className: "text-xs tracking-wide text-muted-foreground",
-										children: "Experience"
-									})]
-								})]
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
-								className: "glass-card absolute -top-5 right-2 flex items-center gap-2.5 rounded-2xl py-2 pr-4 pl-2 sm:-right-4",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
-									src: siteImages.heroCatImage,
-									alt: "Persian cat grooming — photo placeholder, to be replaced with a real photo",
-									width: 96,
-									height: 96,
-									loading: "lazy",
-									className: "size-11 shrink-0 rounded-full object-cover ring-2 ring-white/70"
-								}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("span", {
-									className: "text-xs leading-tight font-medium text-foreground",
-									children: [
-										"Dogs &",
-										/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("br", {}),
-										"Persian Cats"
-									]
-								})]
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
+							className: "blob-mask shadow-glow ring-8 ring-white/60",
+							children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
+								src: siteImages.heroImage,
+								alt: "A freshly groomed white Maltese dog being brushed at a professional pet grooming studio",
+								width: 1200,
+								height: 1408,
+								className: "aspect-4/5 w-full object-cover"
 							})
-						]
+						}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
+							className: "glass-card absolute -bottom-5 left-2 flex items-center gap-3 rounded-2xl px-4 py-3 sm:left-6",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
+								className: "grid size-10 shrink-0 place-items-center rounded-full bg-primary/10 text-primary",
+								children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(PawPrint, {
+									className: "size-5",
+									"aria-hidden": "true"
+								})
+							}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("span", {
+								className: "min-w-0",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
+									className: "block font-display text-lg leading-none text-primary",
+									children: "3 Years"
+								}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
+									className: "text-xs tracking-wide text-muted-foreground",
+									children: "Experience"
+								})]
+							})]
+						})]
 					})
 				}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
 					className: "order-1 lg:order-2",
@@ -28026,9 +28005,9 @@ function PackageBlock({ pkg, index }) {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
 				className: cn("grid items-center gap-8 lg:grid-cols-2 lg:gap-14", !imageFirst && "lg:[&>*:first-child]:order-2"),
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Reveal, { children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Reveal, { children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
 					className: "relative",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
 						className: cn(pkg.featured ? "blob-mask" : "blob-mask-alt", "shadow-glow ring-6 ring-white/60"),
 						children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
 							src: pkg.image,
@@ -28038,20 +28017,7 @@ function PackageBlock({ pkg, index }) {
 							loading: "lazy",
 							className: "aspect-5/4 w-full object-cover"
 						})
-					}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
-						className: "glass-card absolute -bottom-3 right-2 flex items-center gap-2 rounded-2xl py-1.5 pr-3 pl-1.5 sm:right-4",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
-							src: siteImages.packageCatImage,
-							alt: "Persian cat grooming — photo placeholder, to be replaced with a real photo",
-							width: 72,
-							height: 72,
-							loading: "lazy",
-							className: "size-9 shrink-0 rounded-full object-cover ring-2 ring-white/70"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
-							className: "text-xs font-medium text-foreground",
-							children: "Cats welcome"
-						})]
-					})]
+					})
 				}) }), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)(Reveal, {
 					delay: 120,
 					children: [
@@ -28869,8 +28835,8 @@ function Index() {
 	});
 }
 var import_react$2, import_react$3, import_jsx_runtime$2, defaults, highlights, items, points, categories, benefits, steps, Accordion, AccordionItem, AccordionTrigger, AccordionContent, fieldClass, labelClass, details;
-var init_routes_D9xLedqp = __esmMin((() => {
-	init_router_fxjBmlQG();
+var init_routes_BwJ7Pl0p = __esmMin((() => {
+	init_router_CCg_hJT0();
 	import_react$2 = /* @__PURE__ */ __toESM(require_react());
 	import_react$3 = /* @__PURE__ */ __toESM(require_react());
 	import_jsx_runtime$2 = require_jsx_runtime();
@@ -29083,8 +29049,8 @@ var init_routes_D9xLedqp = __esmMin((() => {
 	];
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/router-fxjBmlQG.js
-var router_fxjBmlQG_exports = /* @__PURE__ */ __exportAll$1({
+//#region node_modules/.nitro/vite/services/ssr/assets/router-CCg-hJT0.js
+var router_CCg_hJT0_exports = /* @__PURE__ */ __exportAll$1({
 	a: () => navLinks,
 	getRouter: () => getRouter,
 	i: () => groomingPackages,
@@ -29194,13 +29160,13 @@ function RootComponent() {
 	});
 }
 var import_react$1, import_jsx_runtime$1, styles_default, Route$1, siteImages, contactPlaceholders, bathing, blowDry, nailCutting, earEye, teeth, bodySpray, groomingPackages, navLinks, faqs, $$splitComponentImporter, title, description, rootRouteChildren, routeTree, router_exports, getRouter;
-var init_router_fxjBmlQG = __esmMin((() => {
+var init_router_CCg_hJT0 = __esmMin((() => {
 	init_rolldown_runtime_D7D4PA_g();
 	import_react$1 = /* @__PURE__ */ __toESM(require_react());
 	init_esm();
 	import_jsx_runtime$1 = require_jsx_runtime();
 	init_modern();
-	styles_default = "/assets/styles-zBtTBf4W.css";
+	styles_default = "/assets/styles-j8iKW8qt.css";
 	Route$1 = createRootRouteWithContext()({
 		head: () => ({
 			meta: [
@@ -29470,7 +29436,7 @@ var init_router_fxjBmlQG = __esmMin((() => {
 			a: "Yes. Please confirm service availability and appointment details directly with ASEED Paw Studio before your booking is finalised."
 		}
 	];
-	$$splitComponentImporter = () => Promise.resolve().then(() => (init_routes_D9xLedqp(), routes_D9xLedqp_exports));
+	$$splitComponentImporter = () => Promise.resolve().then(() => (init_routes_BwJ7Pl0p(), routes_BwJ7Pl0p_exports));
 	title = "ASEED Paw Studio | Professional Pet Grooming & Doorstep Service";
 	description = "ASEED Paw Studio provides professional pet grooming and doorstep grooming services, including bathing, haircuts, nail care, ear and eye cleaning, teeth brushing and complete grooming packages.";
 	rootRouteChildren = { IndexRoute: createFileRoute("/")({
@@ -29541,8 +29507,8 @@ var init_router_fxjBmlQG = __esmMin((() => {
 	};
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/start-DDyfYeJG.js
-var start_DDyfYeJG_exports = /* @__PURE__ */ __exportAll$1({ startInstance: () => startInstance });
+//#region node_modules/.nitro/vite/services/ssr/assets/start-D6mYBpKL.js
+var start_D6mYBpKL_exports = /* @__PURE__ */ __exportAll$1({ startInstance: () => startInstance });
 function dedupeSerializationAdapters(deduped, serializationAdapters) {
 	for (let i = 0, len = serializationAdapters.length; i < len; i++) {
 		const current = serializationAdapters[i];
@@ -29553,9 +29519,9 @@ function dedupeSerializationAdapters(deduped, serializationAdapters) {
 	}
 }
 var createStart, errorMiddleware, csrfMiddleware, startInstance;
-var init_start_DDyfYeJG = __esmMin((() => {
+var init_start_D6mYBpKL = __esmMin((() => {
 	init_ssr();
-	init_server_CQI_wuqV();
+	init_server_s_oOwf7D();
 	createStart = (getOptions) => {
 		return {
 			getOptions: async () => {
@@ -29595,8 +29561,8 @@ var init_empty_plugin_adapters_D9UWiqvJ = __esmMin((() => {
 	pluginSerializationAdapters = [];
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/server-CQI_wuqV.js
-var server_CQI_wuqV_exports = /* @__PURE__ */ __exportAll$1({
+//#region node_modules/.nitro/vite/services/ssr/assets/server-s_oOwf7D.js
+var server_s_oOwf7D_exports = /* @__PURE__ */ __exportAll$1({
 	createServerEntry: () => createServerEntry,
 	default: () => server_default$1,
 	n: () => createCsrfMiddleware,
@@ -29665,7 +29631,7 @@ function getResponse() {
 * the dev styles URL for route-scoped CSS collection.
 */
 async function getStartManifest(matchedRoutes) {
-	const { tsrStartManifest } = await Promise.resolve().then(() => (init__tanstack_start_manifest_v_zoj6zFFv(), _tanstack_start_manifest_v_zoj6zFFv_exports));
+	const { tsrStartManifest } = await Promise.resolve().then(() => (init__tanstack_start_manifest_v_DWAsfrQt(), _tanstack_start_manifest_v_DWAsfrQt_exports));
 	const startManifest = tsrStartManifest();
 	let routes = startManifest.routes;
 	routes[rootRouteId];
@@ -30477,8 +30443,8 @@ function getStartResponseHeaders(opts) {
 }
 async function loadEntries() {
 	const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-		Promise.resolve().then(() => (init_router_fxjBmlQG(), router_fxjBmlQG_exports)).then((n) => n.t),
-		Promise.resolve().then(() => (init_start_DDyfYeJG(), start_DDyfYeJG_exports)),
+		Promise.resolve().then(() => (init_router_CCg_hJT0(), router_CCg_hJT0_exports)).then((n) => n.t),
+		Promise.resolve().then(() => (init_start_D6mYBpKL(), start_D6mYBpKL_exports)),
 		Promise.resolve().then(() => (init_empty_plugin_adapters_D9UWiqvJ(), empty_plugin_adapters_D9UWiqvJ_exports))
 	]);
 	return {
@@ -30914,7 +30880,7 @@ function createServerEntry(entry) {
 	} };
 }
 var import_jsx_runtime, defaultStreamHandler, GLOBAL_EVENT_STORAGE_KEY, globalObj$1, eventStorage, HEADERS, manifest, TSS_FORMDATA_CONTEXT, TSS_SERVER_FUNCTION, X_TSS_SERIALIZED, X_TSS_RAW_RESPONSE, TSS_CONTENT_TYPE_FRAMED, FrameType, TSS_CONTENT_TYPE_FRAMED_VERSIONED, GLOBAL_STORAGE_KEY, globalObj, startStorage, getStartOptions, createMiddleware, innerCreateCsrfMiddleware, createCsrfMiddleware, textEncoder, EMPTY_PAYLOAD, serovalPlugins, FORM_DATA_CONTENT_TYPES, MAX_PAYLOAD_SIZE, handleServerAction, LINK_PARAM_TOKEN_RE, PRELOAD_AS_VALUES, ServerFunctionSerializationAdapter, entriesPromise, defaultCsrfMiddleware, getCachedBaseManifest, getProdBaseManifest, getBaseManifest, createEarlyHintsForRequest, ROUTER_BASEPATH, SERVER_FN_BASE, IS_PRERENDERING, IS_SHELL_ENV, IS_DEV, ERR_NO_RESPONSE, ERR_NO_DEFER, server_exports, fetch$1, server_default$1;
-var init_server_CQI_wuqV = __esmMin((() => {
+var init_server_s_oOwf7D = __esmMin((() => {
 	init_rolldown_runtime_D7D4PA_g();
 	require_react();
 	init_esm();
@@ -31312,7 +31278,7 @@ function renderErrorPage() {
 </html>`;
 }
 async function getServerEntry() {
-	if (!serverEntryPromise) serverEntryPromise = Promise.resolve().then(() => (init_server_CQI_wuqV(), server_CQI_wuqV_exports)).then((n) => n.t).then((m) => m.default ?? m);
+	if (!serverEntryPromise) serverEntryPromise = Promise.resolve().then(() => (init_server_s_oOwf7D(), server_s_oOwf7D_exports)).then((n) => n.t).then((m) => m.default ?? m);
 	return serverEntryPromise;
 }
 async function normalizeCatastrophicSsrResponse(response) {

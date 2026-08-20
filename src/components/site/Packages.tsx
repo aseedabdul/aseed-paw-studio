@@ -1,5 +1,5 @@
 import { Check, Star, ArrowRight } from "lucide-react";
-import { groomingPackages, siteImages, type GroomingPackage } from "@/lib/site-content";
+import { groomingPackages, type GroomingPackage } from "@/lib/site-content";
 import { PawDecor } from "./PawDecor";
 import { Reveal } from "./Reveal";
 import { cn } from "@/lib/utils";
@@ -46,17 +46,6 @@ function PackageBlock({ pkg, index }: { pkg: GroomingPackage; index: number }) {
                 loading="lazy"
                 className="aspect-5/4 w-full object-cover"
               />
-            </div>
-            <div className="glass-card absolute -bottom-3 right-2 flex items-center gap-2 rounded-2xl py-1.5 pr-3 pl-1.5 sm:right-4">
-              <img
-                src={siteImages.packageCatImage}
-                alt="Persian cat grooming — photo placeholder, to be replaced with a real photo"
-                width={72}
-                height={72}
-                loading="lazy"
-                className="size-9 shrink-0 rounded-full object-cover ring-2 ring-white/70"
-              />
-              <span className="text-xs font-medium text-foreground">Cats welcome</span>
             </div>
           </div>
         </Reveal>
