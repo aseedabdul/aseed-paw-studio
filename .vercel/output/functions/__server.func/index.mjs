@@ -19923,25 +19923,25 @@ var init_client = __esmMin((() => {
 	init_headers();
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DWAsfrQt.js
-var _tanstack_start_manifest_v_DWAsfrQt_exports = /* @__PURE__ */ __exportAll$1({ tsrStartManifest: () => tsrStartManifest });
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-D0EXxqtF.js
+var _tanstack_start_manifest_v_D0EXxqtF_exports = /* @__PURE__ */ __exportAll$1({ tsrStartManifest: () => tsrStartManifest });
 var tsrStartManifest;
-var init__tanstack_start_manifest_v_DWAsfrQt = __esmMin((() => {
+var init__tanstack_start_manifest_v_D0EXxqtF = __esmMin((() => {
 	tsrStartManifest = () => ({ routes: {
 		__root__: {
 			filePath: "C:/Users/Abu sumaiya/Documents/GitHub/aseed-paw-studio/src/routes/__root.tsx",
 			children: ["/"],
-			preloads: ["/assets/index-TBxA0c2h.js"],
+			preloads: ["/assets/index-BEl5vn2C.js"],
 			scripts: [{ attrs: {
 				type: "module",
 				async: !0,
-				src: "/assets/index-TBxA0c2h.js"
+				src: "/assets/index-BEl5vn2C.js"
 			} }]
 		},
 		"/": {
 			filePath: "C:/Users/Abu sumaiya/Documents/GitHub/aseed-paw-studio/src/routes/index.tsx",
 			children: void 0,
-			preloads: ["/assets/routes-CFEEZnin.js"]
+			preloads: ["/assets/routes-DW0TYLFZ.js"]
 		}
 	} });
 }));
@@ -27604,8 +27604,8 @@ var init_dist = __esmMin((() => {
 	Content2 = AccordionContent$1;
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-BwJ7Pl0p.js
-var routes_BwJ7Pl0p_exports = /* @__PURE__ */ __exportAll$1({ component: () => Index });
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BxD8XaMR.js
+var routes_BxD8XaMR_exports = /* @__PURE__ */ __exportAll$1({ component: () => Index });
 function cn(...inputs) {
 	return twMerge(clsx(inputs));
 }
@@ -28318,9 +28318,15 @@ function Veterinarian() {
 						loading: "lazy",
 						className: "aspect-4/5 w-full object-cover"
 					})
-				}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
-					className: "glass-card absolute -bottom-4 left-4 rounded-2xl px-4 py-2 text-xs tracking-[0.16em] text-primary uppercase",
-					children: "Placeholder image"
+				}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
+					className: "mt-5 text-center",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
+						className: "font-display text-2xl text-primary",
+						children: "ASIFA ZAINAB"
+					}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
+						className: "mt-1 text-sm text-muted-foreground",
+						children: "Veterinarian & Animal Care Specialist"
+					})]
 				})]
 			}) }), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)(Reveal, { children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
 				className: "eyebrow",
@@ -28365,10 +28371,6 @@ function Veterinarian() {
 						/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
 							className: "mt-5 text-sm leading-relaxed text-muted-foreground",
 							children: "Trained in Veterinary Care & Animal Welfare through a one-year professional course completed in 2024, with three years of practical experience in caring for animals and supporting their health, comfort and wellbeing."
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
-							className: "mt-6 border-t border-border pt-5 text-xs text-muted-foreground",
-							children: "Veterinarian photograph and name to be added once provided by the studio."
 						})
 					]
 				})
@@ -28421,6 +28423,22 @@ function BookingForm() {
 	const [sent, setSent] = (0, import_react$3.useState)(false);
 	function handleSubmit(event) {
 		event.preventDefault();
+		const formData = new FormData(event.currentTarget);
+		const message = `Hello ASEED Paw Studio,
+
+I would like to make a grooming booking.
+
+Customer Name: ${formData.get("customerName") ?? ""}
+Phone Number: ${formData.get("phone") ?? ""}
+Pet Name: ${formData.get("petName") ?? ""}
+Pet Type: ${formData.get("petType") ?? ""}
+Selected Service: ${formData.get("service") ?? ""}
+Preferred Date: ${formData.get("date") ?? ""}
+Preferred Time: ${formData.get("time") ?? ""}
+Message: ${formData.get("message") ?? ""}
+
+Please confirm the booking availability. Thank you.`;
+		window.open(createWhatsAppUrl(message), "_blank", "noopener,noreferrer");
 		setSent(true);
 	}
 	if (sent) return /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
@@ -28671,7 +28689,7 @@ function Contact() {
 								}), "Call Now"]
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("a", {
-								href: `https://wa.me/${contactPlaceholders.whatsapp}`,
+								href: createWhatsAppUrl(whatsappGreeting),
 								className: "btn-base btn-outline",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(MessageCircle, {
 									className: "size-4",
@@ -28747,7 +28765,7 @@ function SiteFooter() {
 								{
 									icon: MessageCircle,
 									label: "WhatsApp",
-									href: `https://wa.me/${contactPlaceholders.whatsapp}`
+									href: createWhatsAppUrl(whatsappGreeting)
 								}
 							].map(({ icon: Icon, label, href }) => /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("a", {
 								href,
@@ -28835,8 +28853,8 @@ function Index() {
 	});
 }
 var import_react$2, import_react$3, import_jsx_runtime$2, defaults, highlights, items, points, categories, benefits, steps, Accordion, AccordionItem, AccordionTrigger, AccordionContent, fieldClass, labelClass, details;
-var init_routes_BwJ7Pl0p = __esmMin((() => {
-	init_router_CCg_hJT0();
+var init_routes_BxD8XaMR = __esmMin((() => {
+	init_router_B3rEwXUC();
 	import_react$2 = /* @__PURE__ */ __toESM(require_react());
 	import_react$3 = /* @__PURE__ */ __toESM(require_react());
 	import_jsx_runtime$2 = require_jsx_runtime();
@@ -29049,14 +29067,16 @@ var init_routes_BwJ7Pl0p = __esmMin((() => {
 	];
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CCg-hJT0.js
-var router_CCg_hJT0_exports = /* @__PURE__ */ __exportAll$1({
-	a: () => navLinks,
+//#region node_modules/.nitro/vite/services/ssr/assets/router-B3rEwXUC.js
+var router_B3rEwXUC_exports = /* @__PURE__ */ __exportAll$1({
+	a: () => groomingPackages,
+	c: () => whatsappGreeting,
 	getRouter: () => getRouter,
-	i: () => groomingPackages,
+	i: () => faqs,
 	n: () => contactPlaceholders,
-	o: () => siteImages,
-	r: () => faqs,
+	o: () => navLinks,
+	r: () => createWhatsAppUrl,
+	s: () => siteImages,
 	t: () => router_exports
 });
 function reportLovableError(error, context = {}) {
@@ -29159,14 +29179,17 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime$1.jsx)(Outlet, {})
 	});
 }
-var import_react$1, import_jsx_runtime$1, styles_default, Route$1, siteImages, contactPlaceholders, bathing, blowDry, nailCutting, earEye, teeth, bodySpray, groomingPackages, navLinks, faqs, $$splitComponentImporter, title, description, rootRouteChildren, routeTree, router_exports, getRouter;
-var init_router_CCg_hJT0 = __esmMin((() => {
+function createWhatsAppUrl(message) {
+	return `https://wa.me/${contactPlaceholders.whatsapp}?text=${encodeURIComponent(message)}`;
+}
+var import_react$1, import_jsx_runtime$1, styles_default, Route$1, siteImages, contactPlaceholders, whatsappGreeting, bathing, blowDry, nailCutting, earEye, teeth, bodySpray, groomingPackages, navLinks, faqs, $$splitComponentImporter, title, description, rootRouteChildren, routeTree, router_exports, getRouter;
+var init_router_B3rEwXUC = __esmMin((() => {
 	init_rolldown_runtime_D7D4PA_g();
 	import_react$1 = /* @__PURE__ */ __toESM(require_react());
 	init_esm();
 	import_jsx_runtime$1 = require_jsx_runtime();
 	init_modern();
-	styles_default = "/assets/styles-j8iKW8qt.css";
+	styles_default = "/assets/styles-Be5nxgBU.css";
 	Route$1 = createRootRouteWithContext()({
 		head: () => ({
 			meta: [
@@ -29262,6 +29285,7 @@ var init_router_CCg_hJT0 = __esmMin((() => {
 		serviceArea: "Doorstep Grooming Service",
 		email: "aseedpawsstudio@gmail.com"
 	};
+	whatsappGreeting = "Hello ASEED Paw Studio, I would like to enquire about your pet grooming services. Please share the available packages and booking details.";
 	bathing = (description) => ({
 		name: "Bathing",
 		description,
@@ -29436,7 +29460,7 @@ var init_router_CCg_hJT0 = __esmMin((() => {
 			a: "Yes. Please confirm service availability and appointment details directly with ASEED Paw Studio before your booking is finalised."
 		}
 	];
-	$$splitComponentImporter = () => Promise.resolve().then(() => (init_routes_BwJ7Pl0p(), routes_BwJ7Pl0p_exports));
+	$$splitComponentImporter = () => Promise.resolve().then(() => (init_routes_BxD8XaMR(), routes_BxD8XaMR_exports));
 	title = "ASEED Paw Studio | Professional Pet Grooming & Doorstep Service";
 	description = "ASEED Paw Studio provides professional pet grooming and doorstep grooming services, including bathing, haircuts, nail care, ear and eye cleaning, teeth brushing and complete grooming packages.";
 	rootRouteChildren = { IndexRoute: createFileRoute("/")({
@@ -29507,8 +29531,8 @@ var init_router_CCg_hJT0 = __esmMin((() => {
 	};
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/start-D6mYBpKL.js
-var start_D6mYBpKL_exports = /* @__PURE__ */ __exportAll$1({ startInstance: () => startInstance });
+//#region node_modules/.nitro/vite/services/ssr/assets/start-CM_jGJMr.js
+var start_CM_jGJMr_exports = /* @__PURE__ */ __exportAll$1({ startInstance: () => startInstance });
 function dedupeSerializationAdapters(deduped, serializationAdapters) {
 	for (let i = 0, len = serializationAdapters.length; i < len; i++) {
 		const current = serializationAdapters[i];
@@ -29519,9 +29543,9 @@ function dedupeSerializationAdapters(deduped, serializationAdapters) {
 	}
 }
 var createStart, errorMiddleware, csrfMiddleware, startInstance;
-var init_start_D6mYBpKL = __esmMin((() => {
+var init_start_CM_jGJMr = __esmMin((() => {
 	init_ssr();
-	init_server_s_oOwf7D();
+	init_server_BN_l_Nbj();
 	createStart = (getOptions) => {
 		return {
 			getOptions: async () => {
@@ -29561,8 +29585,8 @@ var init_empty_plugin_adapters_D9UWiqvJ = __esmMin((() => {
 	pluginSerializationAdapters = [];
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/server-s_oOwf7D.js
-var server_s_oOwf7D_exports = /* @__PURE__ */ __exportAll$1({
+//#region node_modules/.nitro/vite/services/ssr/assets/server-BN_l_Nbj.js
+var server_BN_l_Nbj_exports = /* @__PURE__ */ __exportAll$1({
 	createServerEntry: () => createServerEntry,
 	default: () => server_default$1,
 	n: () => createCsrfMiddleware,
@@ -29631,7 +29655,7 @@ function getResponse() {
 * the dev styles URL for route-scoped CSS collection.
 */
 async function getStartManifest(matchedRoutes) {
-	const { tsrStartManifest } = await Promise.resolve().then(() => (init__tanstack_start_manifest_v_DWAsfrQt(), _tanstack_start_manifest_v_DWAsfrQt_exports));
+	const { tsrStartManifest } = await Promise.resolve().then(() => (init__tanstack_start_manifest_v_D0EXxqtF(), _tanstack_start_manifest_v_D0EXxqtF_exports));
 	const startManifest = tsrStartManifest();
 	let routes = startManifest.routes;
 	routes[rootRouteId];
@@ -30443,8 +30467,8 @@ function getStartResponseHeaders(opts) {
 }
 async function loadEntries() {
 	const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-		Promise.resolve().then(() => (init_router_CCg_hJT0(), router_CCg_hJT0_exports)).then((n) => n.t),
-		Promise.resolve().then(() => (init_start_D6mYBpKL(), start_D6mYBpKL_exports)),
+		Promise.resolve().then(() => (init_router_B3rEwXUC(), router_B3rEwXUC_exports)).then((n) => n.t),
+		Promise.resolve().then(() => (init_start_CM_jGJMr(), start_CM_jGJMr_exports)),
 		Promise.resolve().then(() => (init_empty_plugin_adapters_D9UWiqvJ(), empty_plugin_adapters_D9UWiqvJ_exports))
 	]);
 	return {
@@ -30880,7 +30904,7 @@ function createServerEntry(entry) {
 	} };
 }
 var import_jsx_runtime, defaultStreamHandler, GLOBAL_EVENT_STORAGE_KEY, globalObj$1, eventStorage, HEADERS, manifest, TSS_FORMDATA_CONTEXT, TSS_SERVER_FUNCTION, X_TSS_SERIALIZED, X_TSS_RAW_RESPONSE, TSS_CONTENT_TYPE_FRAMED, FrameType, TSS_CONTENT_TYPE_FRAMED_VERSIONED, GLOBAL_STORAGE_KEY, globalObj, startStorage, getStartOptions, createMiddleware, innerCreateCsrfMiddleware, createCsrfMiddleware, textEncoder, EMPTY_PAYLOAD, serovalPlugins, FORM_DATA_CONTENT_TYPES, MAX_PAYLOAD_SIZE, handleServerAction, LINK_PARAM_TOKEN_RE, PRELOAD_AS_VALUES, ServerFunctionSerializationAdapter, entriesPromise, defaultCsrfMiddleware, getCachedBaseManifest, getProdBaseManifest, getBaseManifest, createEarlyHintsForRequest, ROUTER_BASEPATH, SERVER_FN_BASE, IS_PRERENDERING, IS_SHELL_ENV, IS_DEV, ERR_NO_RESPONSE, ERR_NO_DEFER, server_exports, fetch$1, server_default$1;
-var init_server_s_oOwf7D = __esmMin((() => {
+var init_server_BN_l_Nbj = __esmMin((() => {
 	init_rolldown_runtime_D7D4PA_g();
 	require_react();
 	init_esm();
@@ -31278,7 +31302,7 @@ function renderErrorPage() {
 </html>`;
 }
 async function getServerEntry() {
-	if (!serverEntryPromise) serverEntryPromise = Promise.resolve().then(() => (init_server_s_oOwf7D(), server_s_oOwf7D_exports)).then((n) => n.t).then((m) => m.default ?? m);
+	if (!serverEntryPromise) serverEntryPromise = Promise.resolve().then(() => (init_server_BN_l_Nbj(), server_BN_l_Nbj_exports)).then((n) => n.t).then((m) => m.default ?? m);
 	return serverEntryPromise;
 }
 async function normalizeCatastrophicSsrResponse(response) {
