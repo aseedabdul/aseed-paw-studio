@@ -7,6 +7,14 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  nitro: {
+    preset: "vercel",
+    // Work around a known Rolldown code-splitting bug (rolldown/rolldown#8184, #8809)
+    // where a circular runtime-helper reference between generated server chunks throws
+    // "TypeError: __exportAll is not a function" at request time. Disabling dynamic-import
+    // code-splitting for the server bundle avoids the circular chunk entirely.
+    inlineDynamicImports: true,
+  } as never,
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
