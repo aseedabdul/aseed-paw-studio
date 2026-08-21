@@ -19923,25 +19923,25 @@ var init_client = __esmMin((() => {
 	init_headers();
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-D0EXxqtF.js
-var _tanstack_start_manifest_v_D0EXxqtF_exports = /* @__PURE__ */ __exportAll$1({ tsrStartManifest: () => tsrStartManifest });
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-9EH5_j9T.js
+var _tanstack_start_manifest_v_9EH5_j9T_exports = /* @__PURE__ */ __exportAll$1({ tsrStartManifest: () => tsrStartManifest });
 var tsrStartManifest;
-var init__tanstack_start_manifest_v_D0EXxqtF = __esmMin((() => {
+var init__tanstack_start_manifest_v_9EH5_j9T = __esmMin((() => {
 	tsrStartManifest = () => ({ routes: {
 		__root__: {
 			filePath: "C:/Users/Abu sumaiya/Documents/GitHub/aseed-paw-studio/src/routes/__root.tsx",
 			children: ["/"],
-			preloads: ["/assets/index-BEl5vn2C.js"],
+			preloads: ["/assets/index-B2DQmcTm.js"],
 			scripts: [{ attrs: {
 				type: "module",
 				async: !0,
-				src: "/assets/index-BEl5vn2C.js"
+				src: "/assets/index-B2DQmcTm.js"
 			} }]
 		},
 		"/": {
 			filePath: "C:/Users/Abu sumaiya/Documents/GitHub/aseed-paw-studio/src/routes/index.tsx",
 			children: void 0,
-			preloads: ["/assets/routes-DW0TYLFZ.js"]
+			preloads: ["/assets/routes-C_GHFQbp.js"]
 		}
 	} });
 }));
@@ -21882,17 +21882,17 @@ var init_createLucideIcon = __esmMin((() => {
 }));
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/arrow-right.js
-var __iconNode$26, ArrowRight;
+var __iconNode$25, ArrowRight;
 var init_arrow_right = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$26 = [["path", {
+	__iconNode$25 = [["path", {
 		d: "M5 12h14",
 		key: "1ays0h"
 	}], ["path", {
 		d: "m12 5 7 7-7 7",
 		key: "xquz4c"
 	}]];
-	ArrowRight = createLucideIcon("arrow-right", __iconNode$26);
+	ArrowRight = createLucideIcon("arrow-right", __iconNode$25);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -21902,10 +21902,10 @@ var init_arrow_right = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/award.js
-var __iconNode$25, Award;
+var __iconNode$24, Award;
 var init_award = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$25 = [["path", {
+	__iconNode$24 = [["path", {
 		d: "m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526",
 		key: "1yiouv"
 	}], ["circle", {
@@ -21914,7 +21914,7 @@ var init_award = __esmMin((() => {
 		r: "6",
 		key: "1vp47v"
 	}]];
-	Award = createLucideIcon("award", __iconNode$25);
+	Award = createLucideIcon("award", __iconNode$24);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -21924,10 +21924,10 @@ var init_award = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/calendar-check.js
-var __iconNode$24, CalendarCheck;
+var __iconNode$23, CalendarCheck;
 var init_calendar_check = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$24 = [
+	__iconNode$23 = [
 		["path", {
 			d: "M8 2v4",
 			key: "1cmpym"
@@ -21953,7 +21953,7 @@ var init_calendar_check = __esmMin((() => {
 			key: "19s6y9"
 		}]
 	];
-	CalendarCheck = createLucideIcon("calendar-check", __iconNode$24);
+	CalendarCheck = createLucideIcon("calendar-check", __iconNode$23);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -21963,14 +21963,14 @@ var init_calendar_check = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/check.js
-var __iconNode$23, Check;
+var __iconNode$22, Check;
 var init_check = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$23 = [["path", {
+	__iconNode$22 = [["path", {
 		d: "M20 6 9 17l-5-5",
 		key: "1gmf2c"
 	}]];
-	Check = createLucideIcon("check", __iconNode$23);
+	Check = createLucideIcon("check", __iconNode$22);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -21980,14 +21980,14 @@ var init_check = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/chevron-down.js
-var __iconNode$22, ChevronDown;
+var __iconNode$21, ChevronDown;
 var init_chevron_down = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$22 = [["path", {
+	__iconNode$21 = [["path", {
 		d: "m6 9 6 6 6-6",
 		key: "qrunsl"
 	}]];
-	ChevronDown = createLucideIcon("chevron-down", __iconNode$22);
+	ChevronDown = createLucideIcon("chevron-down", __iconNode$21);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -21997,10 +21997,10 @@ var init_chevron_down = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/circle-check.js
-var __iconNode$21, CircleCheck;
+var __iconNode$20, CircleCheck;
 var init_circle_check = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$21 = [["circle", {
+	__iconNode$20 = [["circle", {
 		cx: "12",
 		cy: "12",
 		r: "10",
@@ -22009,7 +22009,7 @@ var init_circle_check = __esmMin((() => {
 		d: "m9 12 2 2 4-4",
 		key: "dzmm74"
 	}]];
-	CircleCheck = createLucideIcon("circle-check", __iconNode$21);
+	CircleCheck = createLucideIcon("circle-check", __iconNode$20);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22019,17 +22019,17 @@ var init_circle_check = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/droplets.js
-var __iconNode$20, Droplets;
+var __iconNode$19, Droplets;
 var init_droplets = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$20 = [["path", {
+	__iconNode$19 = [["path", {
 		d: "M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z",
 		key: "1ptgy4"
 	}], ["path", {
 		d: "M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97",
 		key: "1sl1rz"
 	}]];
-	Droplets = createLucideIcon("droplets", __iconNode$20);
+	Droplets = createLucideIcon("droplets", __iconNode$19);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22039,10 +22039,10 @@ var init_droplets = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/eye.js
-var __iconNode$19, Eye;
+var __iconNode$18, Eye;
 var init_eye = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$19 = [["path", {
+	__iconNode$18 = [["path", {
 		d: "M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0",
 		key: "1nclc0"
 	}], ["circle", {
@@ -22051,7 +22051,7 @@ var init_eye = __esmMin((() => {
 		r: "3",
 		key: "1v7zrd"
 	}]];
-	Eye = createLucideIcon("eye", __iconNode$19);
+	Eye = createLucideIcon("eye", __iconNode$18);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22061,14 +22061,14 @@ var init_eye = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/facebook.js
-var __iconNode$18, Facebook;
+var __iconNode$17, Facebook;
 var init_facebook = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$18 = [["path", {
+	__iconNode$17 = [["path", {
 		d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z",
 		key: "1jg4f8"
 	}]];
-	Facebook = createLucideIcon("facebook", __iconNode$18);
+	Facebook = createLucideIcon("facebook", __iconNode$17);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22078,14 +22078,14 @@ var init_facebook = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/heart-handshake.js
-var __iconNode$17, HeartHandshake;
+var __iconNode$16, HeartHandshake;
 var init_heart_handshake = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$17 = [["path", {
+	__iconNode$16 = [["path", {
 		d: "M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762",
 		key: "17lmqv"
 	}]];
-	HeartHandshake = createLucideIcon("heart-handshake", __iconNode$17);
+	HeartHandshake = createLucideIcon("heart-handshake", __iconNode$16);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22095,17 +22095,17 @@ var init_heart_handshake = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/house.js
-var __iconNode$16, House;
+var __iconNode$15, House;
 var init_house = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$16 = [["path", {
+	__iconNode$15 = [["path", {
 		d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8",
 		key: "5wwlr5"
 	}], ["path", {
 		d: "M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
 		key: "r6nss1"
 	}]];
-	House = createLucideIcon("house", __iconNode$16);
+	House = createLucideIcon("house", __iconNode$15);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22115,10 +22115,10 @@ var init_house = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/info.js
-var __iconNode$15, Info;
+var __iconNode$14, Info;
 var init_info = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$15 = [
+	__iconNode$14 = [
 		["circle", {
 			cx: "12",
 			cy: "12",
@@ -22134,7 +22134,7 @@ var init_info = __esmMin((() => {
 			key: "e9boi3"
 		}]
 	];
-	Info = createLucideIcon("info", __iconNode$15);
+	Info = createLucideIcon("info", __iconNode$14);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22144,10 +22144,10 @@ var init_info = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/instagram.js
-var __iconNode$14, Instagram;
+var __iconNode$13, Instagram;
 var init_instagram = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$14 = [
+	__iconNode$13 = [
 		["rect", {
 			width: "20",
 			height: "20",
@@ -22169,7 +22169,7 @@ var init_instagram = __esmMin((() => {
 			key: "r4j83e"
 		}]
 	];
-	Instagram = createLucideIcon("instagram", __iconNode$14);
+	Instagram = createLucideIcon("instagram", __iconNode$13);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22179,10 +22179,10 @@ var init_instagram = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/mail.js
-var __iconNode$13, Mail;
+var __iconNode$12, Mail;
 var init_mail = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$13 = [["path", {
+	__iconNode$12 = [["path", {
 		d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7",
 		key: "132q7q"
 	}], ["rect", {
@@ -22193,7 +22193,7 @@ var init_mail = __esmMin((() => {
 		rx: "2",
 		key: "izxlao"
 	}]];
-	Mail = createLucideIcon("mail", __iconNode$13);
+	Mail = createLucideIcon("mail", __iconNode$12);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22203,10 +22203,10 @@ var init_mail = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/map-pin.js
-var __iconNode$12, MapPin;
+var __iconNode$11, MapPin;
 var init_map_pin = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$12 = [["path", {
+	__iconNode$11 = [["path", {
 		d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
 		key: "1r0f0z"
 	}], ["circle", {
@@ -22215,7 +22215,7 @@ var init_map_pin = __esmMin((() => {
 		r: "3",
 		key: "ilqhr7"
 	}]];
-	MapPin = createLucideIcon("map-pin", __iconNode$12);
+	MapPin = createLucideIcon("map-pin", __iconNode$11);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22225,10 +22225,10 @@ var init_map_pin = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/menu.js
-var __iconNode$11, Menu;
+var __iconNode$10, Menu;
 var init_menu = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$11 = [
+	__iconNode$10 = [
 		["path", {
 			d: "M4 5h16",
 			key: "1tepv9"
@@ -22242,7 +22242,7 @@ var init_menu = __esmMin((() => {
 			key: "1djgab"
 		}]
 	];
-	Menu = createLucideIcon("menu", __iconNode$11);
+	Menu = createLucideIcon("menu", __iconNode$10);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22252,14 +22252,14 @@ var init_menu = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/message-circle.js
-var __iconNode$10, MessageCircle;
+var __iconNode$9, MessageCircle;
 var init_message_circle = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$10 = [["path", {
+	__iconNode$9 = [["path", {
 		d: "M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719",
 		key: "1sd12s"
 	}]];
-	MessageCircle = createLucideIcon("message-circle", __iconNode$10);
+	MessageCircle = createLucideIcon("message-circle", __iconNode$9);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22269,10 +22269,10 @@ var init_message_circle = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/paw-print.js
-var __iconNode$9, PawPrint;
+var __iconNode$8, PawPrint;
 var init_paw_print = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$9 = [
+	__iconNode$8 = [
 		["circle", {
 			cx: "11",
 			cy: "4",
@@ -22296,7 +22296,7 @@ var init_paw_print = __esmMin((() => {
 			key: "1ydw1z"
 		}]
 	];
-	PawPrint = createLucideIcon("paw-print", __iconNode$9);
+	PawPrint = createLucideIcon("paw-print", __iconNode$8);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22306,14 +22306,14 @@ var init_paw_print = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/phone.js
-var __iconNode$8, Phone;
+var __iconNode$7, Phone;
 var init_phone = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$8 = [["path", {
+	__iconNode$7 = [["path", {
 		d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
 		key: "9njp5v"
 	}]];
-	Phone = createLucideIcon("phone", __iconNode$8);
+	Phone = createLucideIcon("phone", __iconNode$7);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22323,10 +22323,10 @@ var init_phone = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/scissors.js
-var __iconNode$7, Scissors;
+var __iconNode$6, Scissors;
 var init_scissors = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$7 = [
+	__iconNode$6 = [
 		["circle", {
 			cx: "6",
 			cy: "6",
@@ -22352,7 +22352,7 @@ var init_scissors = __esmMin((() => {
 			key: "ptml3r"
 		}]
 	];
-	Scissors = createLucideIcon("scissors", __iconNode$7);
+	Scissors = createLucideIcon("scissors", __iconNode$6);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22362,17 +22362,17 @@ var init_scissors = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/send.js
-var __iconNode$6, Send;
+var __iconNode$5, Send;
 var init_send = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$6 = [["path", {
+	__iconNode$5 = [["path", {
 		d: "M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z",
 		key: "1ffxy3"
 	}], ["path", {
 		d: "m21.854 2.147-10.94 10.939",
 		key: "12cjpa"
 	}]];
-	Send = createLucideIcon("send", __iconNode$6);
+	Send = createLucideIcon("send", __iconNode$5);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22382,10 +22382,10 @@ var init_send = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/smile.js
-var __iconNode$5, Smile;
+var __iconNode$4, Smile;
 var init_smile = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$5 = [
+	__iconNode$4 = [
 		["circle", {
 			cx: "12",
 			cy: "12",
@@ -22411,7 +22411,7 @@ var init_smile = __esmMin((() => {
 			key: "1p4y9e"
 		}]
 	];
-	Smile = createLucideIcon("smile", __iconNode$5);
+	Smile = createLucideIcon("smile", __iconNode$4);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22421,10 +22421,10 @@ var init_smile = __esmMin((() => {
 */
 //#endregion
 //#region node_modules/lucide-react/dist/esm/icons/sparkles.js
-var __iconNode$4, Sparkles;
+var __iconNode$3, Sparkles;
 var init_sparkles = __esmMin((() => {
 	init_createLucideIcon();
-	__iconNode$4 = [
+	__iconNode$3 = [
 		["path", {
 			d: "M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z",
 			key: "1s2grr"
@@ -22444,24 +22444,7 @@ var init_sparkles = __esmMin((() => {
 			key: "6kqj1y"
 		}]
 	];
-	Sparkles = createLucideIcon("sparkles", __iconNode$4);
-}));
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
-//#endregion
-//#region node_modules/lucide-react/dist/esm/icons/star.js
-var __iconNode$3, Star;
-var init_star = __esmMin((() => {
-	init_createLucideIcon();
-	__iconNode$3 = [["path", {
-		d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
-		key: "r04s7s"
-	}]];
-	Star = createLucideIcon("star", __iconNode$3);
+	Sparkles = createLucideIcon("sparkles", __iconNode$3);
 }));
 /**
 * @license lucide-react v0.575.0 - ISC
@@ -22592,7 +22575,6 @@ var init_lucide_react = __esmMin((() => {
 	init_scissors();
 	init_send();
 	init_smile();
-	init_star();
 	init_stethoscope();
 	init_syringe();
 	init_x();
@@ -27604,8 +27586,8 @@ var init_dist = __esmMin((() => {
 	Content2 = AccordionContent$1;
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-BxD8XaMR.js
-var routes_BxD8XaMR_exports = /* @__PURE__ */ __exportAll$1({ component: () => Index });
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-DO9Vaabd.js
+var routes_DO9Vaabd_exports = /* @__PURE__ */ __exportAll$1({ component: () => Index });
 function cn(...inputs) {
 	return twMerge(clsx(inputs));
 }
@@ -27995,119 +27977,109 @@ function PackageBlock({ pkg, index }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("article", {
 		id: pkg.id,
 		className: cn("relative overflow-hidden rounded-[2.5rem] border p-6 sm:p-9 lg:p-12", pkg.featured ? "border-primary/30 bg-secondary/70 shadow-glow" : "border-border bg-background shadow-soft"),
-		children: [
-			pkg.featured && /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("span", {
-				className: "btn-base absolute right-5 top-5 gap-1.5 rounded-full bg-primary px-4 py-1.5 text-xs tracking-[0.18em] text-primary-foreground uppercase min-h-0",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Star, {
-					className: "size-3.5",
-					"aria-hidden": "true"
-				}), "Most Complete"]
-			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
-				className: cn("grid items-center gap-8 lg:grid-cols-2 lg:gap-14", !imageFirst && "lg:[&>*:first-child]:order-2"),
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Reveal, { children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
-					className: "relative",
-					children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
-						className: cn(pkg.featured ? "blob-mask" : "blob-mask-alt", "shadow-glow ring-6 ring-white/60"),
-						children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
-							src: pkg.image,
-							alt: pkg.alt,
-							width: 1200,
-							height: 1008,
-							loading: "lazy",
-							className: "aspect-5/4 w-full object-cover"
-						})
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
+			className: cn("grid items-center gap-8 lg:grid-cols-2 lg:gap-14", !imageFirst && "lg:[&>*:first-child]:order-2"),
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Reveal, { children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
+				className: "relative",
+				children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("div", {
+					className: cn(pkg.featured ? "blob-mask" : "blob-mask-alt", "shadow-glow ring-6 ring-white/60"),
+					children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
+						src: pkg.image,
+						alt: pkg.alt,
+						width: 1200,
+						height: 1008,
+						loading: "lazy",
+						className: "aspect-5/4 w-full object-cover"
 					})
-				}) }), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)(Reveal, {
-					delay: 120,
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
-							className: "eyebrow",
-							children: "Grooming package"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("h3", {
-							className: "mt-3 font-display text-3xl leading-tight text-foreground sm:text-4xl",
-							children: pkg.name
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("p", {
-							className: "mt-4 flex items-baseline gap-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
-								className: "font-display text-4xl text-primary sm:text-5xl",
-								children: pkg.price
-							}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
-								className: "text-sm text-muted-foreground",
-								children: "per grooming session"
-							})]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
-							className: "mt-5 max-w-xl text-base leading-relaxed text-muted-foreground",
-							children: pkg.description
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("ul", {
-							className: "mt-6 flex flex-wrap gap-2",
-							children: pkg.services.map((service) => /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("li", {
-								className: "flex items-center gap-2 rounded-full border border-border bg-background/80 px-3.5 py-1.5 text-sm text-foreground",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Check, {
-									className: "size-3.5 shrink-0 text-primary",
-									"aria-hidden": "true"
-								}), service.name]
-							}, service.name))
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("a", {
-							href: "#booking",
-							className: "btn-base btn-primary mt-8",
-							children: [pkg.cta, /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(ArrowRight, {
-								className: "size-4",
-								"aria-hidden": "true"
-							})]
-						})
-					]
-				})]
-			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
-				className: "mt-12 border-t border-border pt-9",
+				})
+			}) }), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)(Reveal, {
+				delay: 120,
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("h4", {
-						className: "font-display text-xl text-foreground",
-						children: "What's included — service by service"
+					/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
+						className: "eyebrow",
+						children: "Grooming package"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("h3", {
+						className: "mt-3 font-display text-3xl leading-tight text-foreground sm:text-4xl",
+						children: pkg.name
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("p", {
-						className: "mt-2 text-sm text-muted-foreground",
-						children: [
-							"Every step of the ",
-							pkg.name.toLowerCase(),
-							" shown clearly, so you know exactly what your pet receives."
-						]
+						className: "mt-4 flex items-baseline gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
+							className: "font-display text-4xl text-primary sm:text-5xl",
+							children: pkg.price
+						}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("span", {
+							className: "text-sm text-muted-foreground",
+							children: "per grooming session"
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
+						className: "mt-5 max-w-xl text-base leading-relaxed text-muted-foreground",
+						children: pkg.description
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("ul", {
-						className: "mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4",
-						children: pkg.services.map((service, i) => /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Reveal, {
-							delay: i * 60,
-							children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("article", {
-								className: "group h-full overflow-hidden rounded-3xl border border-border bg-background shadow-soft transition-transform duration-500 hover:-translate-y-1.5",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
-									src: service.image,
-									alt: service.alt,
-									width: 928,
-									height: 720,
-									loading: "lazy",
-									className: "aspect-4/3 w-full object-cover transition-transform duration-700 group-hover:scale-105"
-								}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
-									className: "p-4",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("h5", {
-										className: "font-sans text-sm font-semibold tracking-wide text-primary",
-										children: service.name
-									}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
-										className: "mt-2 text-sm leading-relaxed text-muted-foreground",
-										children: service.description
-									})]
-								})]
-							})
-						}) }, service.name))
+						className: "mt-6 flex flex-wrap gap-2",
+						children: pkg.services.map((service) => /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("li", {
+							className: "flex items-center gap-2 rounded-full border border-border bg-background/80 px-3.5 py-1.5 text-sm text-foreground",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Check, {
+								className: "size-3.5 shrink-0 text-primary",
+								"aria-hidden": "true"
+							}), service.name]
+						}, service.name))
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("a", {
+						href: "#booking",
+						className: "btn-base btn-primary mt-8",
+						children: [pkg.cta, /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(ArrowRight, {
+							className: "size-4",
+							"aria-hidden": "true"
+						})]
 					})
 				]
-			})
-		]
+			})]
+		}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
+			className: "mt-12 border-t border-border pt-9",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("h4", {
+					className: "font-display text-xl text-foreground",
+					children: "What's included — service by service"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("p", {
+					className: "mt-2 text-sm text-muted-foreground",
+					children: [
+						"Every step of the ",
+						pkg.name.toLowerCase(),
+						" shown clearly, so you know exactly what your pet receives."
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("ul", {
+					className: "mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4",
+					children: pkg.services.map((service, i) => /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)(Reveal, {
+						delay: i * 60,
+						children: /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("article", {
+							className: "group h-full overflow-hidden rounded-3xl border border-border bg-background shadow-soft transition-transform duration-500 hover:-translate-y-1.5",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("img", {
+								src: service.image,
+								alt: service.alt,
+								width: 928,
+								height: 720,
+								loading: "lazy",
+								className: "aspect-4/3 w-full object-cover transition-transform duration-700 group-hover:scale-105"
+							}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsxs)("div", {
+								className: "p-4",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("h5", {
+									className: "font-sans text-sm font-semibold tracking-wide text-primary",
+									children: service.name
+								}), /* @__PURE__ */ (0, import_jsx_runtime$2.jsx)("p", {
+									className: "mt-2 text-sm leading-relaxed text-muted-foreground",
+									children: service.description
+								})]
+							})]
+						})
+					}) }, service.name))
+				})
+			]
+		})]
 	});
 }
 function Packages() {
@@ -28853,8 +28825,8 @@ function Index() {
 	});
 }
 var import_react$2, import_react$3, import_jsx_runtime$2, defaults, highlights, items, points, categories, benefits, steps, Accordion, AccordionItem, AccordionTrigger, AccordionContent, fieldClass, labelClass, details;
-var init_routes_BxD8XaMR = __esmMin((() => {
-	init_router_B3rEwXUC();
+var init_routes_DO9Vaabd = __esmMin((() => {
+	init_router_CqQ9QfzO();
 	import_react$2 = /* @__PURE__ */ __toESM(require_react());
 	import_react$3 = /* @__PURE__ */ __toESM(require_react());
 	import_jsx_runtime$2 = require_jsx_runtime();
@@ -29067,8 +29039,8 @@ var init_routes_BxD8XaMR = __esmMin((() => {
 	];
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/router-B3rEwXUC.js
-var router_B3rEwXUC_exports = /* @__PURE__ */ __exportAll$1({
+//#region node_modules/.nitro/vite/services/ssr/assets/router-CqQ9QfzO.js
+var router_CqQ9QfzO_exports = /* @__PURE__ */ __exportAll$1({
 	a: () => groomingPackages,
 	c: () => whatsappGreeting,
 	getRouter: () => getRouter,
@@ -29183,13 +29155,13 @@ function createWhatsAppUrl(message) {
 	return `https://wa.me/${contactPlaceholders.whatsapp}?text=${encodeURIComponent(message)}`;
 }
 var import_react$1, import_jsx_runtime$1, styles_default, Route$1, siteImages, contactPlaceholders, whatsappGreeting, bathing, blowDry, nailCutting, earEye, teeth, bodySpray, groomingPackages, navLinks, faqs, $$splitComponentImporter, title, description, rootRouteChildren, routeTree, router_exports, getRouter;
-var init_router_B3rEwXUC = __esmMin((() => {
+var init_router_CqQ9QfzO = __esmMin((() => {
 	init_rolldown_runtime_D7D4PA_g();
 	import_react$1 = /* @__PURE__ */ __toESM(require_react());
 	init_esm();
 	import_jsx_runtime$1 = require_jsx_runtime();
 	init_modern();
-	styles_default = "/assets/styles-Be5nxgBU.css";
+	styles_default = "/assets/styles-w7luxpkm.css";
 	Route$1 = createRootRouteWithContext()({
 		head: () => ({
 			meta: [
@@ -29281,7 +29253,7 @@ var init_router_B3rEwXUC = __esmMin((() => {
 	};
 	contactPlaceholders = {
 		phone: "8778079057",
-		whatsapp: "8778079057",
+		whatsapp: "918778079057",
 		serviceArea: "Doorstep Grooming Service",
 		email: "aseedpawsstudio@gmail.com"
 	};
@@ -29460,7 +29432,7 @@ var init_router_B3rEwXUC = __esmMin((() => {
 			a: "Yes. Please confirm service availability and appointment details directly with ASEED Paw Studio before your booking is finalised."
 		}
 	];
-	$$splitComponentImporter = () => Promise.resolve().then(() => (init_routes_BxD8XaMR(), routes_BxD8XaMR_exports));
+	$$splitComponentImporter = () => Promise.resolve().then(() => (init_routes_DO9Vaabd(), routes_DO9Vaabd_exports));
 	title = "ASEED Paw Studio | Professional Pet Grooming & Doorstep Service";
 	description = "ASEED Paw Studio provides professional pet grooming and doorstep grooming services, including bathing, haircuts, nail care, ear and eye cleaning, teeth brushing and complete grooming packages.";
 	rootRouteChildren = { IndexRoute: createFileRoute("/")({
@@ -29531,8 +29503,8 @@ var init_router_B3rEwXUC = __esmMin((() => {
 	};
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/start-CM_jGJMr.js
-var start_CM_jGJMr_exports = /* @__PURE__ */ __exportAll$1({ startInstance: () => startInstance });
+//#region node_modules/.nitro/vite/services/ssr/assets/start-N-P9toTS.js
+var start_N_P9toTS_exports = /* @__PURE__ */ __exportAll$1({ startInstance: () => startInstance });
 function dedupeSerializationAdapters(deduped, serializationAdapters) {
 	for (let i = 0, len = serializationAdapters.length; i < len; i++) {
 		const current = serializationAdapters[i];
@@ -29543,9 +29515,9 @@ function dedupeSerializationAdapters(deduped, serializationAdapters) {
 	}
 }
 var createStart, errorMiddleware, csrfMiddleware, startInstance;
-var init_start_CM_jGJMr = __esmMin((() => {
+var init_start_N_P9toTS = __esmMin((() => {
 	init_ssr();
-	init_server_BN_l_Nbj();
+	init_server_CpeLLKar();
 	createStart = (getOptions) => {
 		return {
 			getOptions: async () => {
@@ -29585,8 +29557,8 @@ var init_empty_plugin_adapters_D9UWiqvJ = __esmMin((() => {
 	pluginSerializationAdapters = [];
 }));
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/server-BN_l_Nbj.js
-var server_BN_l_Nbj_exports = /* @__PURE__ */ __exportAll$1({
+//#region node_modules/.nitro/vite/services/ssr/assets/server-CpeLLKar.js
+var server_CpeLLKar_exports = /* @__PURE__ */ __exportAll$1({
 	createServerEntry: () => createServerEntry,
 	default: () => server_default$1,
 	n: () => createCsrfMiddleware,
@@ -29655,7 +29627,7 @@ function getResponse() {
 * the dev styles URL for route-scoped CSS collection.
 */
 async function getStartManifest(matchedRoutes) {
-	const { tsrStartManifest } = await Promise.resolve().then(() => (init__tanstack_start_manifest_v_D0EXxqtF(), _tanstack_start_manifest_v_D0EXxqtF_exports));
+	const { tsrStartManifest } = await Promise.resolve().then(() => (init__tanstack_start_manifest_v_9EH5_j9T(), _tanstack_start_manifest_v_9EH5_j9T_exports));
 	const startManifest = tsrStartManifest();
 	let routes = startManifest.routes;
 	routes[rootRouteId];
@@ -30467,8 +30439,8 @@ function getStartResponseHeaders(opts) {
 }
 async function loadEntries() {
 	const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-		Promise.resolve().then(() => (init_router_B3rEwXUC(), router_B3rEwXUC_exports)).then((n) => n.t),
-		Promise.resolve().then(() => (init_start_CM_jGJMr(), start_CM_jGJMr_exports)),
+		Promise.resolve().then(() => (init_router_CqQ9QfzO(), router_CqQ9QfzO_exports)).then((n) => n.t),
+		Promise.resolve().then(() => (init_start_N_P9toTS(), start_N_P9toTS_exports)),
 		Promise.resolve().then(() => (init_empty_plugin_adapters_D9UWiqvJ(), empty_plugin_adapters_D9UWiqvJ_exports))
 	]);
 	return {
@@ -30904,7 +30876,7 @@ function createServerEntry(entry) {
 	} };
 }
 var import_jsx_runtime, defaultStreamHandler, GLOBAL_EVENT_STORAGE_KEY, globalObj$1, eventStorage, HEADERS, manifest, TSS_FORMDATA_CONTEXT, TSS_SERVER_FUNCTION, X_TSS_SERIALIZED, X_TSS_RAW_RESPONSE, TSS_CONTENT_TYPE_FRAMED, FrameType, TSS_CONTENT_TYPE_FRAMED_VERSIONED, GLOBAL_STORAGE_KEY, globalObj, startStorage, getStartOptions, createMiddleware, innerCreateCsrfMiddleware, createCsrfMiddleware, textEncoder, EMPTY_PAYLOAD, serovalPlugins, FORM_DATA_CONTENT_TYPES, MAX_PAYLOAD_SIZE, handleServerAction, LINK_PARAM_TOKEN_RE, PRELOAD_AS_VALUES, ServerFunctionSerializationAdapter, entriesPromise, defaultCsrfMiddleware, getCachedBaseManifest, getProdBaseManifest, getBaseManifest, createEarlyHintsForRequest, ROUTER_BASEPATH, SERVER_FN_BASE, IS_PRERENDERING, IS_SHELL_ENV, IS_DEV, ERR_NO_RESPONSE, ERR_NO_DEFER, server_exports, fetch$1, server_default$1;
-var init_server_BN_l_Nbj = __esmMin((() => {
+var init_server_CpeLLKar = __esmMin((() => {
 	init_rolldown_runtime_D7D4PA_g();
 	require_react();
 	init_esm();
@@ -31302,7 +31274,7 @@ function renderErrorPage() {
 </html>`;
 }
 async function getServerEntry() {
-	if (!serverEntryPromise) serverEntryPromise = Promise.resolve().then(() => (init_server_BN_l_Nbj(), server_BN_l_Nbj_exports)).then((n) => n.t).then((m) => m.default ?? m);
+	if (!serverEntryPromise) serverEntryPromise = Promise.resolve().then(() => (init_server_CpeLLKar(), server_CpeLLKar_exports)).then((n) => n.t).then((m) => m.default ?? m);
 	return serverEntryPromise;
 }
 async function normalizeCatastrophicSsrResponse(response) {

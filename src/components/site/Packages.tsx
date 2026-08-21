@@ -1,4 +1,4 @@
-import { Check, Star, ArrowRight } from "lucide-react";
+import { Check, ArrowRight } from "lucide-react";
 import { groomingPackages, type GroomingPackage } from "@/lib/site-content";
 import { PawDecor } from "./PawDecor";
 import { Reveal } from "./Reveal";
@@ -17,13 +17,6 @@ function PackageBlock({ pkg, index }: { pkg: GroomingPackage; index: number }) {
           : "border-border bg-background shadow-soft",
       )}
     >
-      {pkg.featured && (
-        <span className="btn-base absolute right-5 top-5 gap-1.5 rounded-full bg-primary px-4 py-1.5 text-xs tracking-[0.18em] text-primary-foreground uppercase min-h-0">
-          <Star className="size-3.5" aria-hidden="true" />
-          Most Complete
-        </span>
-      )}
-
       <div
         className={cn(
           "grid items-center gap-8 lg:grid-cols-2 lg:gap-14",

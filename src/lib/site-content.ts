@@ -30,7 +30,7 @@ export const siteImages = {
 
 export const contactPlaceholders = {
   phone: "8778079057",
-  whatsapp: "8778079057",
+  whatsapp: "918778079057",
   serviceArea: "Doorstep Grooming Service",
   email: "aseedpawsstudio@gmail.com",
 } as const;
